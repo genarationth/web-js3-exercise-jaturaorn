@@ -4,3 +4,9 @@ const calcost = (money,transation, interest) => {
 }
 
 console.log(calcost(10000,3.0,0.01));
+
+const welguest = (name1,name2,name3) => {
+    console.log(`Welcome ${name1},${name2},${name3}`);
+}
+
+welguest('Joe','Jack','Rohan')
