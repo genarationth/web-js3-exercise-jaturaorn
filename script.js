@@ -11,7 +11,14 @@
 
 // welguest('Joe','Jack','Rohan')
 
-const calage = (currentYear,birthYear) => {
-    return currentYear - birthYear;
+// const calage = (currentYear,birthYear) => {
+//     return currentYear - birthYear;
+// }
+// console.log(calage(2023,1998));
+
+const Guest = (Name1,Name2,Name3,Age1,Age2,Age3) => {
+    console.log(`Welcome ${Name1}, you are ${Age1}. Welcome ${Name2}, You are ${Age2}.
+     Welcome ${Name3}, you are ${Age3}`)
 }
-console.log(calage(2023,1998));
+
+Guest('Jacob',35,'Ann',40,'Max',24);
